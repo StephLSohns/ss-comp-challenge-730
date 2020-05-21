@@ -36,4 +36,4 @@ The static comp challenge is a challenge to get you working that HTML/CSS muscle
 
 # NOTE:
 Think about how you, as a user, could best experience the content/layout across various screen sizes. Is the content legible? Does the imagery (especially full bleed background images) still make sense and look good? Do portions of the nav become icons (and are they intuitive?), or a menu?
-![Example Comp](<img src="/assets/images/static-comp-challenge-2.jpg" alt="static-comp-challenge-2">)
+![Example Comp](assets/imagestatic-comp-challenge-2.jpg)
