@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: cyan;
+  background: #00ffec;
   height: 194px;
   display: grid;
   grid-auto-flow: column;
@@ -50,10 +50,66 @@ header h1 {
   font-family: fantasy;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25%;
+  grid-auto-rows: minmax(275px, auto):
+  border: 3px solid black;
+  grid-gap: 1em;
+}
+
 .card {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  /* grid-gap: 1em;
-  grid-auto-rows: minmax(200px, auto): */
-  border: 5px solid black;
+  border: 4px solid black;
+  grid-gap: 2em;
+  border-radius: 10px;
+  background: #fffff4;
+}
+
+.sun-img {
+  width: 100%;
+  height: 225px;
+  display: block;
+}
+
+.jup-img {
+  width: 100%;
+  display: block;
+}
+
+.moon-img {
+  width: 100%;
+  height: 225px;
+  display: block;
+}
+
+.mars-img {
+  width: 100%;
+  height: 225px;
+  display: block;
+}
+
+.ven-img {
+  width: 100%;
+  height: 225px;
+  display: block;
+}
+
+.merc-img {
+  width: 100%;
+  height: 225px;
+  display: block;
+}
+
+.sat-img {
+  width: 100%;
+  height: 225px;
+  display: block;
+}
+
+.nept-img {
+  width: 100%;
+  height: 225px;
+  display: block;
 }
