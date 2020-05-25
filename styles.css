@@ -1,3 +1,22 @@
 body {
-  background-color: yellow;
+  font-family: 'Arial' sans-serif;
+  background: url(https://i.pinimg.com/736x/71/d2/9a/71d29a3aa2086931d3a98da8bd4f1717.jpg);
+  /* display: block; */
+}
+
+#top-area {
+  max-width: 100%;
+  margin: 0 auto;
+  padding 32px;
+}
+
+header {
+  background: cyan;
+  height: 194px;
+}
+header h1 {
+  text-transform: uppercase;
+  text-align: right;
+  color: #fff;
+  line-height: 64px;
 }
