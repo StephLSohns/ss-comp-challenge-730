@@ -3,6 +3,8 @@ body {
 }
 
 #top-area {
+  display: flex;
+  order: 1;
   max-width: 100%;
   margin: 0 auto;
   padding 32px;
@@ -15,7 +17,7 @@ header {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 20%;
-  margin: 24px 0px 25px 0px;
+  margin: 10px 0px 125px 0px;
 }
 
 header h1 {
@@ -35,6 +37,7 @@ header h1 {
   padding: 0px 10px 0px 30px;
   list-style-type: none;
 }
+
 .nav-bar li {
   /* grid-template-columns: 40% 1fr 1fr 1fr; */
   align-content: space-around;
@@ -43,6 +46,7 @@ header h1 {
   color: black;
   text-align: right;
 }
+
 .nav-bar a {
   text-decoration: none;
   color: black;
@@ -50,11 +54,19 @@ header h1 {
   font-family: fantasy;
 }
 
+.shares-title {
+  display: grid;
+  grid-area: grid-column-start;
+  font-family: fantasy;
+  font-size: 60px;
+  color: #fff;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25%;
-  grid-auto-rows: minmax(275px, auto):
+  grid-auto-rows: minmax(200px, auto):
   border: 3px solid black;
   grid-gap: 1em;
 }
@@ -67,49 +79,83 @@ header h1 {
   background: #fffff4;
 }
 
+.card-content {
+  display: grid;
+  grid-auto-flow: row;
+  line-height: 1.5;
+  padding-left: 15px;
+
+}
+
+.card-content h1 h2 {
+  font-size: 25px;
+}
+
+.card-content a {
+  /* display: grid; */
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .sun-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
 }
 
 .jup-img {
   width: 100%;
+  height: 200px;
   display: block;
 }
 
 .moon-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
 }
 
 .mars-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
 }
 
 .ven-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
 }
 
 .merc-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
 }
 
 .sat-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
 }
 
 .nept-img {
   width: 100%;
-  height: 225px;
+  height: 200px;
   display: block;
+}
+
+
+/* Responsive Layout Media Queries */
+
+@media only screen and (max-width: 860px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
 }
